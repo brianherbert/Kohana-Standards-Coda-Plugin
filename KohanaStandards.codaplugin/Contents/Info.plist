@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>CodaScriptPlugIn</string>
+	<key>CFBundleIconFile</key>
+	<string>plug-in</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.panic.CodaScriptPlugIn</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>CodaPlugInMinimumAPIVersion</key>
+	<string>3</string>
+	<key>NSPrincipalClass</key>
+	<string>CodaScriptPlugIn</string>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>fallbackInput</key>
+			<string>none</string>
+			<key>input</key>
+			<string>document</string>
+			<key>name</key>
+			<string>Space IF Conditions</string>
+			<key>output</key>
+			<string>replaceDocument</string>
+			<key>script</key>
+			<string>ifspacer.php</string>
+			<key>uuid</key>
+			<string>89A03E54-7C26-45E5-ADF0-3E6DF103F816</string>
+		</dict>
+		<dict>
+			<key>fallbackInput</key>
+			<string>none</string>
+			<key>input</key>
+			<string>document</string>
+			<key>name</key>
+			<string>Convert Operands</string>
+			<key>output</key>
+			<string>replaceDocument</string>
+			<key>script</key>
+			<string>convertoperands.php</string>
+			<key>uuid</key>
+			<string>0D0292B8-9744-4C3F-BC4D-51DBB0E7F796</string>
+		</dict>
+		<dict>
+			<key>fallbackInput</key>
+			<string>none</string>
+			<key>input</key>
+			<string>document</string>
+			<key>name</key>
+			<string>Spaces to Tabs</string>
+			<key>output</key>
+			<string>replaceDocument</string>
+			<key>script</key>
+			<string>spacestotabs.php</string>
+			<key>uuid</key>
+			<string>E3F08AE3-16E4-4723-B93F-F8D602FBEF6F</string>
+		</dict>
+	</array>
+</dict>
+</plist>
