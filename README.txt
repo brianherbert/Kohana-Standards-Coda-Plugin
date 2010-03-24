@@ -1,9 +1,4 @@
-The php files here are compiled into the KohanaStandards.codaplugin file.
-
 The Coda Plugin Creator can be found here: http://www.panic.com/coda/developer/howto/plugins.php
-
-
-
 
 
 
